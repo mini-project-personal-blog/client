@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  min-width: 600px;
+}
+
+/* Style for the paragraph */
+.limit-text {
+  max-width: 350px; /* Set the maximum width for the paragraph */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Add ellipsis (...) when text overflows */
+}
+
